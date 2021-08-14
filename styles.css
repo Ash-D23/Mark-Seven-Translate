@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: 	#26A65B;
+}
+
+body {
+    margin: 0;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Pacifico', cursive;
+    color: #333333;
+}
+
+nav {
+    background-color: var(--primary);
+    text-align: center;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: 900px;
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+}
+
+button {
+    background-color: var(--primary);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 1rem;
+    font-family: 'Pacifico', cursive;
+    font-size: large;
+}
+
+.header{
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+
+#translate-output {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: hidden;
+    border: 1px solid black;
+    padding: 1rem;
+    font-size: large;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.container{
+  display: flex;
+
+}
+
+.input-row{
+  width: 50%;
+  margin: 30px 60px;
+}
+
+.output-row{
+  width: 50%;
+  margin: 40px 60px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary);
+    text-align: center;
+}
+
+footer p {
+    max-width: 600px;
+    margin: auto;
+}
